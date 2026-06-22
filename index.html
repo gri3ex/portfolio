@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yevhenii Moskovskyi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;600;800&family=JetBrains+Mono:wght=400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <header>
+        <a href="#" class="logo">ym<span>.dev</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <a href="https://www.linkedin.com/in/yevhenii-moskovskyi-4a3086368/" target="_blank" class="header-btn">LinkedIn <i class='bx bx-link-external'></i></a>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="badge">Based in Kyiv, Ukraine</span>
+                <h1>Hi, I am <span>Yevhenii Moskovskyi</span></h1>
+                <p>Cybersecurity & Information Security student at Igor Sikorsky Kyiv Polytechnic Institute. Crafting secure backend architectures, building automated systems, and exploring low-level development.</p>
+                
+                <div class="crypto-terminal" id="terminal-container">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="terminal-title">guest@ewgeshka06: ~</div>
+                    </div>
+                    <div class="terminal-body" id="terminal-body">
+                        <div class="terminal-line">Type <span class="highlight">help</span> to view available security commands.</div>
+                        <div class="terminal-input-row" id="terminal-input-block">
+                            <span class="prompt">guest@ewgeshka06:~$</span>
+                            <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="https://github.com/gri3ex" target="_blank" class="btn btn-secondary"><i class='bx bxl-github'></i> GitHub</a>
+                </div>
+            </div>
+            
+            <div class="hero-avatar">
+                <div class="avatar-glow"></div>
+                <div class="avatar-frame">
+                    <img src="photo_2026-06-22_21-43-44.jpg" class="img-main" alt="Yevhenii Moskovskyi">
+                    <img src="photo_2026-06-22_21-43-47.jpg" class="img-hover" alt="Yevhenii Moskovskyi Close-up">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <span>Featured Work</span>
+            <h2>Recent Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="card-content">
+                    <div class="card-tags">
+                        <span>Web Project</span>
+                        <span>Live</span>
+                    </div>
+                    <h3>Vyncro.me</h3>
+                    <p>A personal web project built to demonstrate high-performance architecture, optimized deployment, and clean frontend/backend integration.</p>
+                    <a href="https://vyncro.me" target="_blank" class="project-link">Visit Website <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <div class="card-tags">
+                        <span>Python</span>
+                        <span>Automation</span>
+                    </div>
+                    <h3>Secure API & Automation</h3>
+                    <p>Custom scripts and automation modules designed for secure, rapid token validation, systems integration, and script execution tracking.</p>
+                    <a href="https://github.com/gri3ex" target="_blank" class="project-link">GitHub Repository <i class='bx bx-arrow-to-right'></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <div class="card-tags">
+                        <span>C++</span>
+                        <span>Linux</span>
+                    </div>
+                    <h3>Low-Level Utilities</h3>
+                    <p>Exploring multi-threaded systems programming, operating system memory concepts, and lightweight performance tracking on Ubuntu Linux.</p>
+                    <a href="https://github.com/gri3ex" target="_blank" class="project-link">GitHub Repository <i class='bx bx-arrow-to-right'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="section-title">
+            <span>Expertise</span>
+            <h2>Tech Stack</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-item"><i class='bx bxl-python'></i> Python</div>
+            <div class="skill-item"><i class='bx bx-code-alt'></i> C++</div>
+            <div class="skill-item"><i class='bx bxl-php'></i> PHP</div>
+            <div class="skill-item"><i class='bx bxl-tux'></i> Linux (Ubuntu)</div>
+            <div class="skill-item"><i class='bx bx-shield-quarter'></i> Cyber Security</div>
+            <div class="skill-item"><i class='bx bxl-git'></i> Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="section-title">
+            <span>Connection</span>
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-cards">
+            <a href="https://www.linkedin.com/in/yevhenii-moskovskyi-4a3086368/" target="_blank" class="contact-box">
+                <i class='bx bxl-linkedin-square'></i>
+                <h3>LinkedIn</h3>
+                <p>Let's connect professionally</p>
+            </a>
+            <a href="https://github.com/gri3ex" target="_blank" class="contact-box">
+                <i class='bx bxl-github'></i>
+                <h3>GitHub</h3>
+                <p>Check out my source code</p>
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
